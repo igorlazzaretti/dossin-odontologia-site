@@ -25,6 +25,8 @@
   --main-gold-color: #D0A368; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --black-color: #0a0a0a; /* Used for text and elements that require a strong contrast against lighter backgrounds */
+  --white-color: aliceblue; /* Used for text and elements that require a strong contrast against darker backgrounds */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -524,8 +526,8 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: var(--white-color);
+  background-color: var(--black-color);
   font-size: 14px;
   position: relative;
 }
@@ -545,7 +547,7 @@ h6 {
 }
 
 .footer .footer-about .logo span {
-  color: var(--heading-color);
+  color: var(--white-color);
   font-family: var(--heading-font);
   font-size: 26px;
   font-weight: 700;
@@ -564,9 +566,9 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  border: 1px solid color-mix(in srgb, var(--white-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--white-color), transparent 20%);
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -578,6 +580,7 @@ h6 {
 
 .footer h4 {
   font-size: 16px;
+  color: var(--white-color);
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
@@ -610,7 +613,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: color-mix(in srgb, var(--white-color), transparent 30%);
   display: inline-block;
   line-height: 1;
 }
@@ -1997,5 +2000,18 @@ section,
   100% {
     transform: scale(1.1); /* Volta ao tamanho normal */
     filter: blur(1px);
+  }
+}
+
+.logo-footer {
+  width: 200%; 
+  margin-top: 2vh; 
+  margin-left: 2vw;
+}
+
+@media (max-width: 575px) {
+  .logo-footer {
+    width: 80%;
+    margin-left: 10%;
   }
 }
