@@ -29,18 +29,15 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Autor: Igor Dossin Lazzarettti
+  * Author: Igor Dossin Lazzarettti
   * Portifólio: https://www.igorlazzaretti.com
-  * Template Name: Medicio
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
 </head>
 
 <body class="index-page">
+
+  <h1 class="sitename">Medicio</h1>
 
   <header id="header" class="header sticky-top">
 
@@ -61,18 +58,17 @@
       <div class="container position-relative d-flex align-items-center justify-content-end">
         <a href="index.html" class="logo d-flex align-items-center me-auto">
           <img src="assets/img/logo-and-favicon/logo-preto-1080p-sf.png" alt="">
-          <!-- Uncomment the line below if you also wish to use a text logo -->
-          <!-- <h1 class="sitename">Medicio</h1>  -->
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#hero" class="active">Início</a></li>
-            <li><a href="#about">Sobre Nós</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#departments">Departments</a></li>
+            <li><a href="#sobre-nos">Sobre Nós</a></li>
+            <li><a href="#odontologia">Odontologia</a></li>
+            <li><a href="#estetica">Estética</a></li>
             <li><a href="#doctors">Doutores</a></li>
-            <li><a href="#contact">Onde Estamos</a></li>
+            <li><a href="#galeria-de-fotos">Fotos</a></li>
+            <li><a href="#onde-estamos">Onde Estamos</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -95,21 +91,21 @@
         <div class="carousel-item active">
           <img src="assets/img/hero-carousel/mari-dente.jpg" alt="" class="img-zoom-out">
           <div class="container container-hero">
-            <a href="#about" class="btn-get-started">Sobre Nós</a>
+            <a href="#sobre-nos" class="btn-get-started">Sobre Nós</a>
           </div>
         </div><!-- End Carousel Item -->
-        
+
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/mari-luva-rosa.jpg" alt="" class="img-zoom-out">
           <div class="container">
-            <a href="#about" class="btn-get-started">Serviços</a>
+            <a href="#estetica" class="btn-get-started">Estética</a>
           </div>
         </div><!-- End Carousel Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/gui-dente-azul.jpg" alt="" class="img-zoom-out">
           <div class="container">
-            <a href="#about" class="btn-get-started">Onde Estamos</a>
+            <a href="#onde-estamos" class="btn-get-started">Onde Estamos</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -136,33 +132,43 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-heartbeat icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"><i class="fas fa-hands-helping icon"></i></div>
+              <h4>Humanização</h4>
+              <p>
+                Atendimento pautado pela empatia, escuta ativa e respeito, oferecendo um cuidado individualizado que
+                considera as necessidades, expectativas e emoções de cada paciente.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-pills icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><i class="fas fa-award icon"></i></div>
+              <h4>Excelência</h4>
+              <p>
+                Compromisso com a melhoria contínua por meio da atualização profissional constante, adoção de tecnologias
+                avançadas e aplicação de técnicas modernas que elevam a qualidade dos tratamentos.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-thermometer icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><i class="fas fa-scale-balanced icon"></i></div>
+              <h4>Ética</h4>
+              <p>
+                Condução transparente, responsável e íntegra em todas as etapas do relacionamento com o paciente, respeitando princípios profissionais e promovendo confiança mútua.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
-              <div class="icon"><i class="fas fa-dna icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <div class="icon"><i class="fas fa-tooth icon"></i></div>
+              <h4>Comprometimento</h4>
+              <p>
+                Atuação responsável e dedicada em todas as etapas do atendimento, com foco na saúde, na estética e na satisfação plena dos nossos pacientes, sempre buscando entregar resultados de excelência e promover confiança.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -181,7 +187,8 @@
             <div class="text-center">
               <h3>🚨Está em uma emergência? Precisa de ajuda agora?🚨</h3>
               <p>Nós podemos atendê-lo inclusive em emergências odontológicas. Não deixe de nos mandar uma mensagem.</p>
-              <a class="cta-btn" href="https://wa.me/5545981628335?text=Olá,%20estou%20precisando%20de%20um%20atendimento%20de%20urgência.%20Gostaria%20de%20mais%20informações." target="_blank">Vá direto para o Whats</a>
+              <a class="cta-btn" href="https://wa.me/5545981628335?text=Olá,%20estou%20precisando%20de%20um%20atendimento%20de%20urgência.%20Gostaria%20de%20mais%20informações."
+              target="_blank">Vá direto para o Whats</a>
             </div>
           </div>
         </div>
@@ -190,36 +197,46 @@
     </section><!-- /Call To Action Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="sobre-nos" class="about section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us<br></h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Sobre a Dossin Odontologia<br></h2>
+        <p>Fundada em 2019, a Dossin Odontologia Especializada é uma clínica comprometida com o cuidado humanizado e a excelência em saúde bucal e estética facial.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/sobre/lentes.png" class="img-fluid" alt="" style="height: 36rem; width: auto;">
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            <h3>Nossa Missão</h3>
+            <p>
+              Promover saúde bucal e estética facial com excelência, acolhimento e ética, oferecendo tratamentos personalizados
+              que valorizam o bem-estar, a autoestima e a qualidade de vida de cada paciente. Atuamos com foco na saúde
+              e na beleza, aliando técnicas odontológicas e estéticas seguras, inovadoras e com resultados naturais.
+            </p>
+            <h3>Nossa Visão</h3>
+            <p>
+              Ser referência em odontologia humanizada e de qualidade, reconhecida pela confiança, inovação e
+              comprometimento com a saúde integral e a estética dos nossos pacientes. Buscamos constantemente alcançar
+              resultados que superem as expectativas, promovendo sorrisos saudáveis, naturais e que reflitam a satisfação
+              e a autoestima de cada pessoa atendida.
+            </p>
+            <h3>Nosa Conduta</h3>
+            <p>
+            Dossin Odontologia reafirma seu compromisso com a ética, a integridade e o respeito nas relações com pacientes
+            colaboradores, parceiros e sociedade. O comportamento de todos os envolvidos na prática profissional é orientado
+            para promover:
             </p>
             <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Atendimento transparente, respeitoso e responsável;</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Compromisso com a segurança e bem-estar dos pacientes;</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Relações profissionais baseadas na honestidade, empatia e profissionalismo;</span></li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-            </p>
+
           </div>
         </div>
 
@@ -238,38 +255,42 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="fas fa-user-md flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Doctors</p>
+                Mais de
+                <span data-purecounter-start="0" data-purecounter-end="2400" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Pacientes Atendidos</p>
               </div>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="far fa-hospital flex-shrink-0"></i>
+              <i class="far fa-face-laugh-beam flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Departments</p>
+                Mais de
+                <span data-purecounter-start="0" data-purecounter-end="1250" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Facetas Construídas</p>
               </div>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-flask flex-shrink-0"></i>
+              <i class="fas fa-tooth flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Research Labs</p>
+                Mais de
+                <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Implantes Realizados</p>
               </div>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-award flex-shrink-0"></i>
+              <i class="fas fa-pen-fancy flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Awards</p>
+                Mais de
+                <span data-purecounter-start="0" data-purecounter-end="320" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Canais Dentários Realizados</p>
               </div>
             </div>
           </div><!-- End Stats Item -->
@@ -286,41 +307,43 @@
       <div class="container">
 
         <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features.jpg" alt=""></div>
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/sobre/chapeu.png" alt=""></div>
 
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+            <h3>Diferenciais</h3>
+            <p>
+              Na Dossin Odontologia você pode contar com um tratamento diferenciado.
+            </p>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
+              <i class="fa-solid fa-computer flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4><a href="" class="stretched-link">Tecnologia</a></h4>
+                <p>Tecnologia de ponta e técnicas minimamente invasivas para garantir resultados duradouros e o máximo conforto durante os procedimentos.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
+              <i class="fa-solid fa-user-doctor flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4><a href="" class="stretched-link">Humanizado</a></h4>
+                <p>Atendimento humanizado e acompanhamento individualizado para cada paciente.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
+              <i class="fa-solid fa-tooth flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                <h4><a href="" class="stretched-link">Modernidade</a></h4>
+                <p>Técnicas modernas que garantem resultados sutis e eficazes, com foco na preservação da naturalidade.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="fa-solid fa-lungs flex-shrink-0"></i>
+              <i class="fa-solid fa-syringe flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                <h4><a href="" class="stretched-link">Estética</a></h4>
+                <p>Atendimento estético personalizado, com análise detalhada da anatomia facial para oferecer tratamentos que realcem o melhor de cada paciente.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -332,12 +355,12 @@
     </section><!-- /Features Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="odontologia" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Odontologia</h2>
+        <p>Serviços oferecidos em Odontologia</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -347,12 +370,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
-                <i class="fas fa-heartbeat"></i>
+                <i class="fas fa-teeth"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>Facetas em Resina</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <p>Corrija imperfeições e transforme seu sorriso com facetas de resina, obtendo resultados naturais e
+                duradouros.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -362,33 +386,36 @@
                 <i class="fas fa-pills"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Tratamento de Canal</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>Alivie dores e salve dentes comprometidos com um tratamento de canal eficiente e confortável.
+                Indicamos técnicas modernas que preservam a estrutura dentária e devolvem a saúde bucal com tranquilidade.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-hospital-user"></i>
+                <i class="fas fa-notes-medical"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Extração Dental</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>Procedimentos de extração realizados com todo o cuidado, focando no conforto, segurança e recuperação
+                rápida do paciente. Indicada apenas quando realmente necessária, com atendimento humanizado.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-dna"></i>
+                <i class="fas fa-teeth-open"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Prótese Protocolo</h3>
               </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <p>Recupere sua arcada dentária com uma solução fixa e confiável. A prótese protocolo oferece excelente
+                estabilidade, estética natural e segurança ao mastigar, devolvendo a autoconfiança e a qualidade de vida.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -396,12 +423,12 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-wheelchair"></i>
+                <i class="fas fa-tooth"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Velit Doloremque</h3>
+                <h3>Implantes Dentários</h3>
               </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <p>Substitua dentes perdidos com implantes que proporcionam funcionalidade e estética perfeitas.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -409,12 +436,14 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-notes-medical"></i>
+                <i class="fas fa-shield-virus"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Dolori Architecto</h3>
+                <h3>Limpeza Dentária</h3>
               </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <p>Previna doenças bucais com uma limpeza profissional que remove placas bacterianas, tártaros e manchas
+                superficiais. Essencial para manter a saúde das gengivas, o hálito fresco e o brilho natural dos dentes.
+                É um cuidado simples que faz toda a diferença na sua saúde bucal.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -436,10 +465,10 @@
         <div class="div-button-whatsapp">
           <a class="button-whatsapp"
             href="https://wa.me/5545981628335?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20de%20odontologia." target="_blank">
-            <i class="bi bi-whatsapp"></i> Vá direto para o Whats</a>
+            <i class="bi bi-whatsapp"></i> Whatsapp</a>
             <br><br>
             <a class="button-whatsapp" href="javascript:void(0);" onclick="copyToClipboard('+5545981628335')">
-              <i class="bi bi-phone"></i> Copie o número de telefone
+              <i id="estetica" class="bi bi-phone"></i> Copie o número de telefone
             </a>
         </div>
       </div><!-- End Section Title -->
@@ -447,14 +476,25 @@
 
     </section><!-- /Appointment Section -->
 
-    <!-- Tabs Section -->
-    <section id="departments" class="tabs section">
+    <!-- Estética -->
+    <section class="tabs section">
 
-      <!-- Section Title -->
+      <!-- Título Estética -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Departments</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+
+        <div class="row">
+          <div class="col-lg-6 details order-2 order-lg-1">
+            <img src="./assets/img/doctors/mari-formal.png" alt="" style="border-radius: 3%; height: 28rem;" class="img-fluid">
+          </div>
+          <div class="col-lg-5 text-center order-1 order-lg-1" style="margin-top: 10%;">
+            <h2>Tratamentos Estéticos</h2>
+            <p>A Dra. Mariana Ludke é especialista em tratamentos estéticos faciais, oferecendo técnicas de rejuvenescimento
+              que combinam segurança, inovação e resultados naturais. Com procedimentos minimamente invasivos, ela ajuda
+              você a se sentir mais confiante e radiante.</p>
+          </div>
+        </div>
+
+      </div><!-- Fim Título Estética -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -462,81 +502,85 @@
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">Cardiology</a>
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">Preenchimento Labial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Neurology</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Microagulhamento</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Hepatology</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Pediatrics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">Ophthalmologists</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Toxina Botulínica (Botox)</a>
               </li>
             </ul>
           </div>
           <div class="col-lg-9 mt-4 mt-lg-0">
             <div class="tab-content">
+              <!-- Tab 1 Preenchimento Labial -->
               <div class="tab-pane active show" id="tabs-tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Cardiology</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <h3>Preenchimento Labial</h3>
+                    <p class="fst-italic"></p>
+                    <p>O preenchimento labial é um procedimento estético sofisticado que busca aumentar o volume e
+                      aprimorar o contorno dos lábios, garantindo um resultado harmonioso e natural. Na nossa clínica,
+                      utilizamos ácido hialurônico de alta qualidade, um material biocompatível que proporciona hidratação
+                      e volume, respeitando as proporções faciais para um visual equilibrado e elegante.</p>
+                    <p>
+                      Nossa especialista realiza uma avaliação detalhada para entender os desejos e necessidades de cada
+                      paciente, assegurando que o procedimento realce a beleza individual com sutileza. Com técnicas avançadas
+                      e um cuidado especial, oferecemos segurança, conforto e resultados duradouros, para que você se sinta
+                      ainda mais confiante com seu sorriso.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/estetica/labio.jpg" alt="" class="img-fluid fotos-estetica">
                   </div>
                 </div>
               </div>
+              <!-- Tab 2 Microagulhamento -->
               <div class="tab-pane" id="tabs-tab-2">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Neurology</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    <h3>Microagulhamento</h3>
+                    <p class="fst-italic"></p>
+                    <p>
+                      O microagulhamento é uma técnica inovadora que estimula a produção natural de colágeno através de
+                      microperfurações controladas na pele, promovendo uma renovação celular profunda. Este tratamento é
+                      ideal para melhorar a textura da pele, suavizar cicatrizes de acne, reduzir linhas finas e até mesmo
+                      tratar poros dilatados, resultando em uma aparência mais firme, uniforme e rejuvenescida.
+                    </p>
+                    <p>
+                      Realizado com equipamentos de última geração e por profissionais altamente qualificados, o
+                      microagulhamento em nossa clínica é personalizado para atender às necessidades específicas de cada paciente.
+                      Após o procedimento, a pele ganha um brilho saudável e uma vitalidade renovada, com resultados progressivos
+                      que continuam a se desenvolver nas semanas seguintes, para um rosto visivelmente mais jovem.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/estetica/pele.jpg" alt="" class="img-fluid fotos-estetica">
                   </div>
                 </div>
               </div>
+              <!-- Tab 3 Toxina Botulínica (Botox) -->
               <div class="tab-pane" id="tabs-tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Hepatology</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <h3>Toxina Botulínica (Botox)</h3>
+                    <p class="fst-italic"></p>
+                    <p>
+                      A toxina botulínica, amplamente conhecida como Botox, é um tratamento estético consagrado que suaviza
+                      rugas e linhas de expressão, proporcionando um aspecto mais jovem e descansado sem comprometer a naturalidade.
+                      Aplicada de forma precisa em áreas como testa, ao redor dos olhos e entre as sobrancelhas, ela relaxa os músculos
+                      faciais responsáveis pelas marcas do tempo, garantindo um rejuvenescimento sutil e elegante.
+                    </p>
+                    <p>
+                      Em nossa clínica, o procedimento é minimamente invasivo e realizado com total segurança por profissionais
+                      experientes, que priorizam a harmonia facial e a preservação da expressividade. Os resultados são visíveis em
+                      poucos dias e podem durar até seis meses, permitindo que você mantenha um semblante sereno e autêntico,
+                      com a confiança de estar no seu melhor.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tabs-tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Pediatrics</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tabs-tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Ophthalmologists</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                    <img src="assets/img/estetica/botox.jpg" alt="" class="img-fluid fotos-estetica">
                   </div>
                 </div>
               </div>
@@ -553,8 +597,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Depoimentos</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -591,12 +634,11 @@
               <div class="testimonial-item" "="">
             <p>
               <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                <span>Fiz minhas lentes e recomendo ótimos profissionais. 💪</span>
                 <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="assets/img/testimonials/deyvson.png" class="testimonial-img" alt="">
+                <h3>Deyvson Lima</h3>
               </div>
             </div><!-- End testimonial item -->
 
@@ -604,12 +646,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Levei meu filho para arrancar um dentinho de leite teimoso, e a dra Mariana foi super atenciosa,
+                    deixou meu menino super tranquilo, foi uma experiência muito positiva para ele, muito obrigada pelo
+                    atendimento.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="assets/img/testimonials/Rosemeri.png" class="testimonial-img" alt="">
+                <h3>Rosemeri Zelazowski</h3>
               </div>
             </div><!-- End testimonial item -->
 
@@ -617,12 +660,11 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Super indico. Excelente resultado 👏🙏✔️💯</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/testimonials/marcos.png" class="testimonial-img" alt="">
+                <h3>Marco Andreola</h3>
               </div>
             </div><!-- End testimonial item -->
 
@@ -630,12 +672,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>
+                    Clínica odontológica super aconchegante. Atendimento mega Top! Produtos de alta qualidade. Super
+                    indico, são baitas Profissionais.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/testimonials/suane.png" class="testimonial-img" alt="">
+                <h3>Suane Caetano</h3>
               </div>
             </div><!-- End testimonial item -->
 
@@ -643,12 +686,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>
+                    Atendimento excelente! Profissionais muito bem qualificados e preparados para atender seus
+                    clientes. Tirando que o consultório é lindo e super aconchegante! Eu super recomendo!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/testimonials/isys.png" class="testimonial-img" alt="">
+                <h3>Isys Oliveira</h3>
               </div>
             </div><!-- End testimonial item -->
 
@@ -677,29 +721,29 @@
               <div class="member-img">
                 <img src="assets/img/doctors/gui-2.png" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/drguilhermedossindamin/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Guilherme Dossin Damin</h4>
-                <span>Tirador de Dentes</span>
+                <span>Especialista em Implantodontia, Facetas em Resina e Ortodontia</span>
               </div>
             </div>
           </div><!-- End Team Member -->
 
           <div class="col-lg-3 col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
-              <div class="member-img">
+              <div  class="member-img">
                 <img src="assets/img/doctors/mari-2.png" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-instagram"></i></a>
+                <div id="galeria-de-fotos" class="social">
+                  <a href="https://www.instagram.com/mari.ludke/" target="_blankhttps://www.instagram.com/mari.ludke/"><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
                 <h4>Mariana Ludke</h4>
-                <span>Cirurgiã</span>
+                <span>Cirurgiã-Dentista</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -711,7 +755,7 @@
     </section><!-- /Doctors Section -->
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+    <section class="gallery section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -774,8 +818,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Perguntas - FAQ</h2>
+        <p>Perguntas mais frequentes sobre nossos serviços e procedimentos</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -845,7 +889,7 @@
     </section><!-- /Faq Section -->
 
     <!-- Onde Estamos Section -->
-    <section id="contact" class="contact section text-center">
+    <section id="onde-estamos" class="contact section text-center">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -856,14 +900,14 @@
         <iframe style="border:0; width: 100%; height: 470px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.8635997813153!2d-51.18640122381147!3d-29.16869147537626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea3f9e1c3f149%3A0x114e3c154011a612!2sDossin%20Odontologia%20Especializada!5e0!3m2!1spt-BR!2sbr!4v1746478302963!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- End Google Maps -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="row gy-4">
           <div class="">
             <div class="row gy-4">
 
               <div class="col-lg-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Endereço</h3>
                   <p>R. Sinimbu, 2211 - Sala 208 - São Pelegrino</p>
@@ -904,15 +948,13 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Dossin Odontologia Especializada</span>
-          </a>
-          <div class="footer-contact pt-3">
+          <h4>Dados Principais</h4>
+            <p>Hrg Saude Ltda CNPJ: 34.591.296/0001-84</p>
             <p>R. Sinimbu, 2211 - Sala 208</p>
             <p>São Pelegrino, Caxias do Sul - RS</p>
+            <p>Responsável Técnico CRO-RS 25764</p>
             <p class="mt-3"><strong>Whatsapp:</strong> <span>(54) 98162 8335</span></p>
             <p><strong>Contato:</strong> <span>contato@dossinodontologia.com.br</span></p>
-          </div>
           <div class="social-links d-flex mt-4">
             <a href="https://www.facebook.com/dossinodonto/" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/dossin.odontologia/" target="_blank"><i class="bi bi-instagram"></i></a>
@@ -924,10 +966,9 @@
           <h4>Links Úteis</h4>
           <ul>
             <li><a href="#">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#sobre-nos">Sobre Nós</a></li>
+            <li><a href="#odontologia">Serviços de Odontologia</a></li>
+            <li><a href="#estetica">Serviços de Estética</a></li>
           </ul>
         </div>
 
