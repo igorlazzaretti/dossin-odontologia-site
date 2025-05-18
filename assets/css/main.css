@@ -247,7 +247,7 @@ h6 {
 }
 
 .header .branding {
-  min-height: 4.7rem;
+  min-height: 3.7rem;
   padding: 10px 0;
 }
 
@@ -2004,15 +2004,27 @@ section,
 }
 
 .logo-footer {
-  width: 200%;
+  width: 29vw;
   margin-top: 2vh;
-  margin-left: 2vw;
+  margin-left: 6vw;
 }
 
+@media (max-width: 989px) {
+  .logo-footer {
+    width: 50vw;
+    margin-left:5%;
+  }
+}
+@media (max-width: 767px) {
+  .logo-footer {
+    width: 90%;
+    margin-left:5%;
+  }
+}
 @media (max-width: 575px) {
   .logo-footer {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 }
 
@@ -2031,4 +2043,48 @@ section,
 .fotos-estetica {
   width: 16rem;
   border-radius: 3%;
+}
+@media (max-width: 999px) {
+  .font-size-small-phone {
+    font-size: 0.9rem;
+  }
+  .font-size-smallest-phone {
+    font-size: 0.8rem !important;
+  }
+}
+
+/* Loader */
+#loading {
+  /* 100% da tela é o background da tela inicial */
+  width: 100vw;
+  height: 100vh;
+  background-color: #060606;
+
+  display: flex;
+  flex-direction: column; /* Alinha os itens em colunas (um sob o outro) */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  position: fixed; /* Garante que o loader fique fixo na tela */
+}
+.img-loader {
+  display: block; /* Garante que a imagem seja tratada como um bloco */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  margin-top: 35vh;
+  width: clamp(20px, 50vw,400px);
+  margin-bottom: 40px; /* Espaço entre a imagem e o texto */
+}
+.loader {
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  width: clamp(20px, 30vw,400px);
+  --c:no-repeat linear-gradient( #fff 0 0);
+  background: var(--c),var(--c),#D0A368;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+}
+@keyframes l16 {
+  0%   {background-position:-150% 0,-150% 0}
+  66%  {background-position: 250% 0,-150% 0}
+  100% {background-position: 250% 0, 250% 0}
 }
